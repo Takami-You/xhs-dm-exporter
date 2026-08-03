@@ -1,14 +1,17 @@
 // ==UserScript==
-// @name         小红书网页私信导出器（TXT / JSON / HTML）
-// @namespace    local.xhs.dm.exporter
+// @name         Xiaohongshu DM Exporter 小红书私信导出助手
+// @namespace    https://github.com/Takami-You/xhs-dm-exporter
 // @version      1.3.1
 // @description  自动向上加载并导出当前小红书私信会话；支持正文、引用、表情、图片链接、时间分隔和可选内嵌图片。
-// @author       Local
-// @match        *://*.xiaohongshu.com/*
+// @author       咻咔咻咔咻
+// @match        https://*.xiaohongshu.com/*
 // @run-at       document-idle
 // @grant        GM_download
 // @grant        GM_xmlhttpRequest
-// @connect      *
+// @connect      xiaohongshu.com
+// @connect      xhscdn.com
+// @connect      xhscdn.net
+// @license      GPL-3.0
 // ==/UserScript==
 
 (() => {
